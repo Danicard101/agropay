@@ -2,7 +2,7 @@ alert("Hello upwork")
 const abtBtn = document.querySelector("#abtBtn")
 
 abtBtn.addEventListener('click', function(){
-    window.location.href = '/about.html'})
+    window.location.href = './about.html'})
 
     const hmbtn = document.querySelector("#hmbtn")
 hmbtn.addEventListener('click', function (){
