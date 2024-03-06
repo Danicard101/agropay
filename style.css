@@ -142,7 +142,7 @@ nav h6 {
     margin-bottom: 20px; /* Reduce bottom margin */
   }
   .cont p {
-    font-size: 1.3em; /* Reduce font size for paragraphs */
+    font-size: .8em; /* Reduce font size for paragraphs */
     margin-bottom: 50px;
   }
   .cont button {
@@ -150,7 +150,7 @@ nav h6 {
     height: 35px;
   }
   .pic img {
-    width: 200px;
+    width: 150px;
     background: url(./images/pexels-darius-krause-2609107.jpg);
     background-size: cover;
     background-repeat: no-repeat;
