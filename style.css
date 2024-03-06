@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #19524b; */
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  border: 1px;
+  position: fixed;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  color: #fff;
+  gap: 20px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav ul li:hover {
+  color: #3c765e;
+}
+nav h6 {
+  color: #c3f268;
+  padding: 20px;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.first {
+  background-color: #3c765e;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.info {
+  padding: 30px;
+}
+.xplain button {
+  color: #c3f268;
+  background-color: #19524b;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 40px;
+  width: 330px;
+  height: 30px;
+  padding: 10px;
+  font-size: 1em;
+}
+.cont h6 {
+  font-size: 3em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.cont p {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 60px;
+}
+.cont button {
+  background-color: #c3f268;
+  color: #19524b;
+  border-radius: 25px;
+  border: none;
+  width: 170px;
+  height: 40px;
+  padding: 2px;
+  font-size: 1em;
+}
+.pic img {
+  width: 500px;
+}
+.axces {
+  padding: 40px;
+  align-items: center;
+  width: 100%;
+  background-color: #0f322e;
+}
+.axces h6 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.axces p {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+}
+.axces ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.axces ul h6 {
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.axces button {
+  background-color: #3c765e;
+  color: #c3f268;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+}
+@media only screen and (max-width: 600px) {
+  nav {
+    gap: 10px;
+  }
+  nav ul {
+    font-size: 8px;
+  }
+  nav h6 {
+    font-size: 1em;
+  }
+  .first {
+    padding: 10px;
+  }
+  .info {
+    padding: 10px;
+  }
+  .xplain button {
+    width: 250px;
+  }
+  .cont h6 {
+    font-size: 2em; /* Reduce font size for heading */
+    margin-bottom: 20px; /* Reduce bottom margin */
+  }
+  .cont p {
+    font-size: 1.3em; /* Reduce font size for paragraphs */
+    margin-bottom: 50px; /* Reduce bottom margin */
+  }
+  .cont button {
+    width: 150px;
+    height: 35px;
+  }
+  .pic img {
+    width: 130px;
+  }
+  .axces {
+    padding: 13px;
+  }
+  .axces h6 {
+    font-size: 1.5em;
+    margin-bottom: 7px;
+  }
+  .axces p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+  }
+  .axces ul h6 {
+    margin-top: 7px;
+    margin-bottom: 3.5px;
+  }
+  .axces button {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+  }
+}

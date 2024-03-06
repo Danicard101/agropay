@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGROPAY-ABOUT</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e64f421a3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        border: 1px;
+        position: fixed;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        color: #fff;
+        gap: 20px;
+        font-size: 20px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      nav ul li:hover {
+        color: #3c765e;
+      }
+      nav h6 {
+        color: #c3f268;
+        padding: 20px;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .about {
+        background-color: #0f312e;
+        padding: 40px;
+        align-items: center;
+        width: 100%;
+      }
+      .intr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        padding: 80px;
+        flex-direction: column;
+      }
+      .intr h6 {
+        font-size: 1.7em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .intr span {
+        color: #c3f268;
+        font-size: 20px;
+      }
+      .intr p {
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      .control {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+      }
+      .rev {
+        border: 2px solid none;
+        border-radius: 10px;
+        color: #fff;
+        padding: 20px;
+        background-color: #3c765e;
+      }
+      .rev ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        margin-top: 25px;
+      }
+      .rev button {
+        border-radius: 50%;
+      }
+      .image-button {
+        width: 40px;
+        height: 40px;
+        background-image: url("/images/istockphoto-1204343829-1024x1024.jpg");
+        background-size: contain;
+      }
+      .rev i {
+        color: yellow;
+        margin-top: 5px;
+      }
+      @media only screen and (max-width: 600px) {
+        nav {
+          gap: 13px;
+        }
+        nav ul {
+          font-size: 13px; 
+        }
+        nav h6 {
+          font-size: 1em; 
+        }
+        .about {
+          padding: 15px; 
+        }
+        .intr {
+          padding: 30px; 
+        }
+        .intr h6 {
+          font-size: .8em; 
+          margin-top: 7px;
+        }
+        .intr span {
+          font-size: 13px; 
+        }
+        .intr p {
+          font-size: 13px; 
+          margin-top: 7px; 
+        }
+        .control {
+          padding: 7px; 
+        }
+        .rev {
+          padding: 7px; 
+        }
+        .rev ul {
+          margin-top: 10px; 
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h6 id="hmbtn">AGROPAY</h6>
+      <ul>
+        <li id="hmbtn">Home</li>
+        <li>Features</li>
+        <li>About Us</li>
+        <li>Teamwork</li>
+        <li>FAQs</li>
+      </ul>
+    </nav>
+    <section class="about">
+      <div class="intr">
+        <span>Testimonial</span>
+        <h6>
+          Hear what the millions of people say <br />
+          about Us
+        </h6>
+        <p>Excellent reviews from our esteemed customers</p>
+      </div>
+      <div class="control">
+        <div class="rev">
+          <p>
+            "AgroPay Financials has exceeded my expectations. Their commitment
+            <br />
+            to understanding the unique needs of the agricultural sector sets
+            them apart. <br />
+            With their innovative financial solutions, managing transactions has
+            never <br />
+            been easier. A must-have for any farmer."
+          </p>
+          <ul>
+            <li>
+              <button class="image-button"></button>
+            </li>
+            <li>
+              <p>Michael Ryan</p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="rev">
+          <p>
+            "I've been using AgroPay Financials for a while <br />now, and I'm
+            thoroughly impressed. Their platform is intuitive, their rates
+            <br />
+            are competitive, and their customer support is top-notch.
+            <br />
+            Definitely a trustworthy partner for any agricultural business."
+          </p>
+          <ul>
+            <li>
+              <button class="image-button"></button>
+            </li>
+            <li>
+              <p>Emily Sheldon</p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="rev">
+          <p>
+            "AgroPay Financials has been instrumental in helping me navigate
+            <br />
+            the complexities of agricultural finances. Their comprehensive
+            services and <br />
+            user-friendly interface have made a significant difference in how
+            <br />
+            I manage my farm's finances. Truly grateful for their support!"
+          </p>
+          <ul>
+            <li>
+              <button class="image-button"></button>
+            </li>
+            <li>
+              <p>David Hugos</p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script>
+      const hmbtn = document.querySelector("#hmbtn");
+      hmbtn.addEventListener("click", function () {
+        window.location.href = "./index.html";
+      });
+    </script>
+  </body>
+</html>
