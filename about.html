@@ -103,39 +103,45 @@
       }
       @media only screen and (max-width: 600px) {
         nav {
-          gap: 13px;
+          gap: 10px;
         }
         nav ul {
-          font-size: 13px; 
+          font-size: 13px;
         }
         nav h6 {
-          font-size: 1em; 
+          font-size: 1em;
         }
         .about {
-          padding: 15px; 
+          padding: 15px;
         }
         .intr {
-          padding: 30px; 
+          padding: 30px;
         }
         .intr h6 {
-          font-size: .8em; 
+          font-size: 0.8em;
           margin-top: 7px;
         }
         .intr span {
-          font-size: 13px; 
+          font-size: 13px;
         }
         .intr p {
-          font-size: 13px; 
-          margin-top: 7px; 
+          font-size: 13px;
+          margin-top: 7px;
         }
         .control {
-          padding: 7px; 
-        }
+          display: grid;
+          grid-template-columns: repeat(1, 2fr);
+          padding: 7px;
+          }
         .rev {
-          padding: 7px; 
+          padding: 5px;
+          text-align: center;
         }
         .rev ul {
-          margin-top: 10px; 
+          margin-top: 10px;
+        }
+        .rev ul li {
+          text-align: center;
         }
       }
     </style>
@@ -202,7 +208,7 @@
             </li>
           </ul>
         </div>
-        <div class="rev">
+        <div class="rev" id="hugos">
           <p>
             "AgroPay Financials has been instrumental in helping me navigate
             <br />

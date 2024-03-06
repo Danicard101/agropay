@@ -129,7 +129,9 @@ nav h6 {
     padding: 10px;
   }
   .xplain button {
-    width: 250px;
+    width: 150px;
+    height: 120px;
+    margin-top: 30px;
   }
   .cont h6 {
     font-size: 2em; /* Reduce font size for heading */
@@ -137,14 +139,14 @@ nav h6 {
   }
   .cont p {
     font-size: 1.3em; /* Reduce font size for paragraphs */
-    margin-bottom: 50px; /* Reduce bottom margin */
+    margin-bottom: 50px;
   }
   .cont button {
     width: 150px;
     height: 35px;
   }
   .pic img {
-    width: 130px;
+    width: 200px;
   }
   .axces {
     padding: 13px;
@@ -152,6 +154,11 @@ nav h6 {
   .axces h6 {
     font-size: 1.5em;
     margin-bottom: 7px;
+  }
+  .axces ul {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
   }
   .axces p {
     font-size: 0.8em;

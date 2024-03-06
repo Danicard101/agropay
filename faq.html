@@ -102,7 +102,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         margin-bottom: 20px;
-        color:#0F322E;
+        color: #0f322e;
       }
       .list a {
         text-decoration: none;
@@ -115,39 +115,46 @@
 
       @media only screen and (max-width: 600px) {
         nav {
-          gap: 10px;
+          gap: 4px;
         }
         nav ul {
           font-size: 12px;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
         }
         nav h6 {
-          font-size: 1em; 
+          font-size: 1em;
         }
         .dir {
-          padding-right: 10px; 
+          padding-right: 10px;
           padding-left: 10px;
-          padding-top: 10px; 
+          padding-top: 30px;
         }
         .dir h6 {
-          font-size: 1em; 
-          margin-top: 10px;
+          font-size: 1em;
+          margin-top: 45px;
         }
         .dir p {
-          font-size: 12px; 
-          margin-top: 7px; 
+          font-size: 12px;
+          margin-top: 7px;
         }
         .dir button {
-          width: 100px; 
-          height: 20px; 
-          font-size: 0.8em; 
-          margin-top: 10px; 
+          width: 150px;
+          height: 40px;
+          font-size: 0.8em;
+          margin-top: 10px;
         }
         .dir h4 {
-          font-size: 1.5em; 
-          margin-top: 10px; 
+          font-size: 1.5em;
+          margin-top: 10px;
+        }
+        .list {
+          display: grid;
+          grid-template-columns: repeat(2, 2fr);
+          width: 100%;
         }
         .list ul li {
-          gap: 2px; 
+          gap: 5px;
         }
         .list h5 {
           font-size: 0.8em; /* Reduce font size for heading */
@@ -180,52 +187,52 @@
         allowing me to focus more on growing my business. The convenience <br />
         and reliability they offer are unmatched.
       </p>
-      <div class="list">
-        <ul>
-          <li>
-            <h5>Company</h5>
-            <span><a href="#">Investor Relations</a></span>
-            <span><a href="#">Press Room/Newsroom</a></span>
-            <span><a href="#">Terms of Service</a></span>
-            <span><a href="#">Privacy Policy</a></span>
-            <span><a href="#">Accessibility</a></span>
-            <span><a href="#">Careers</a></span>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h5>Team work</h5>
-            <span><a href="#">Community Engagement</a></span>
-            <span><a href="#">Values and Culture</a></span>
-            <span><a href="#">Recognition or Awards</a></span>
-            <span><a href="#">Career Opportunities</a></span>
-            <span><a href="#">Team Members</a></span>
-            <span><a href="#">Partnerships</a></span>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h5>Resources</h5>
-            <span><a href="#">Whitepapers</a></span>
-            <span><a href="#">Articles</a></span>
-            <span><a href="#">Downloads</a></span>
-            <span><a href="#">Webinar</a></span>
-            <span><a href="#">Tutorials</a></span>
-            <span><a href="#">Blog</a></span>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h5>Contact Us</h5>
-            <span><a href="#">Social Media Links</a></span>
-            <span> <a href="#">Offiice Address</a></span>
-            <span><a href="#">Email Address</a></span>
-            <span><a href="#">Live Chat</a></span>
-            <span><a href="#">FAQs</a></span>
-            <span><a href="#">Map</a></span>
-          </li>
-        </ul>
-      </div>
+    </section>
+    <section class="list">
+      <ul>
+        <li>
+          <h5>Company</h5>
+          <span><a href="#">Investor Relations</a></span>
+          <span><a href="#">Press Room/Newsroom</a></span>
+          <span><a href="#">Terms of Service</a></span>
+          <span><a href="#">Privacy Policy</a></span>
+          <span><a href="#">Accessibility</a></span>
+          <span><a href="#">Careers</a></span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h5>Team work</h5>
+          <span><a href="#">Community Engagement</a></span>
+          <span><a href="#">Values and Culture</a></span>
+          <span><a href="#">Recognition or Awards</a></span>
+          <span><a href="#">Career Opportunities</a></span>
+          <span><a href="#">Team Members</a></span>
+          <span><a href="#">Partnerships</a></span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h5>Resources</h5>
+          <span><a href="#">Whitepapers</a></span>
+          <span><a href="#">Articles</a></span>
+          <span><a href="#">Downloads</a></span>
+          <span><a href="#">Webinar</a></span>
+          <span><a href="#">Tutorials</a></span>
+          <span><a href="#">Blog</a></span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h5>Contact Us</h5>
+          <span><a href="#">Social Media Links</a></span>
+          <span> <a href="#">Offiice Address</a></span>
+          <span><a href="#">Email Address</a></span>
+          <span><a href="#">Live Chat</a></span>
+          <span><a href="#">FAQs</a></span>
+          <span><a href="#">Map</a></span>
+        </li>
+      </ul>
     </section>
     <script>
       const hmbtn = document.querySelector("#hmbtn");
