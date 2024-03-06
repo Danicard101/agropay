@@ -126,18 +126,19 @@ nav h6 {
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+    
   }
   .info {
     padding: 10px;
   }
   .xplain button {
-    width: 200px;
-    height: 40px;
+    width: 150px;
+    height: 60px;
     font-size: 13px;
     margin-top: 60px;
   }
   .cont h6 {
-    font-size: 2em; /* Reduce font size for heading */
+    font-size: 1.8em; /* Reduce font size for heading */
     margin-bottom: 20px; /* Reduce bottom margin */
   }
   .cont p {
@@ -150,7 +151,7 @@ nav h6 {
   }
   .pic img {
     width: 200px;
-    background: url(./images/pexels-tom-fisk-9222541.jpg);
+    background: url(./images/pexels-darius-krause-2609107.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
