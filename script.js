@@ -1,4 +1,4 @@
-alert("Hello upwork")
+alert("If you are here then you have found Ifeanyi's portfolio on Upwork")
 const abtBtn = document.querySelector("#abtBtn")
 
 abtBtn.addEventListener('click', function(){
