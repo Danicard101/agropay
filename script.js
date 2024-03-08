@@ -8,6 +8,10 @@ abtBtn.addEventListener('click', function(){
 hmbtn.addEventListener('click', function (){
     window.location.href = './index.html'
 })
+const homeBtn = document.querySelector("#homeBtn")
+homeBtn.addEventListener('click', function (){
+    window.location.href = './index.html'
+})
 const fqbtn = document.querySelector('#fqbtn')
 fqbtn.addEventListener('click', function(){
     window.location.href = './faq.html'})

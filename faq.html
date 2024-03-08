@@ -169,9 +169,9 @@
     <nav>
       <h6 id="hmbtn">AGROPAY</h6>
       <ul>
-        <li id="hmbtn">Home</li>
+        <li id="homeBtn">Home</li>
         <li>Features</li>
-        <li>About Us</li>
+        <li id="abtBtn">About Us</li>
         <li>Teamwork</li>
         <li>FAQs</li>
       </ul>
@@ -241,6 +241,14 @@
       hmbtn.addEventListener("click", function () {
         window.location.href = "./index.html";
       });
+      const homeBtn = document.querySelector("#homeBtn");
+      homeBtn.addEventListener("click", function () {
+        window.location.href = "./index.html";
+      });
+      const abtBtn = document.querySelector("#abtBtn")
+
+abtBtn.addEventListener('click', function(){
+    window.location.href = './about.html'})
     </script>
   </body>
 </html>
